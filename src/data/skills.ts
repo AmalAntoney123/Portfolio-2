@@ -19,16 +19,17 @@ const skills: ISkillListItem[] = [
         level: SkillLevel.Expert,
         icon: "/skills/dart.svg",
       },
+      {
+        title: "Python",
+        level: SkillLevel.Expert,
+        icon: "/skills/python2.svg",
+      },
     ],
   },
   {
     title: "Frontend Development",
     items: [
-      {
-        title: "Next.js",
-        level: SkillLevel.Expert,
-        icon: "/skills/nextjs.png",
-      },
+
       {
         title: "React.js",
         level: SkillLevel.Expert,
@@ -45,15 +46,10 @@ const skills: ISkillListItem[] = [
         icon: "/skills/css.svg",
       },
       {
-        title: "SASS",
+        title: "Flutter",
         level: SkillLevel.Intermediate,
-        icon: "/skills/sass.svg",
-      },
-      {
-        title: "Redux Toolkit",
-        level: SkillLevel.Expert,
-        icon: "/skills/redux.svg",
-      },
+        icon: "/skills/flutter.svg",
+      }
     ],
   },
   {
@@ -65,20 +61,15 @@ const skills: ISkillListItem[] = [
         icon: "/skills/nodejs.svg",
       },
       {
-        title: "Express.js",
+        title: "Python",
         level: SkillLevel.Expert,
-        icon: "/skills/express.svg",
+        icon: "/skills/python2.svg",
       },
       {
-        title: "Socket.io",
+        title: "Php",
         level: SkillLevel.Intermediate,
-        icon: "/skills/socket-io.png",
+        icon: "/skills/php.svg",
       },
-      // {
-      //   title: "Nest.js",
-      //   level: SkillLevel.Begginer,
-      //   icon: "/skills/nestjs.svg",
-      // },
     ],
   },
   {
@@ -90,9 +81,9 @@ const skills: ISkillListItem[] = [
         icon: "/skills/flutter.svg",
       },
       {
-        title: "GetX",
+        title: "React-Native",
         level: SkillLevel.Expert,
-        icon: "/skills/getx.png",
+        icon: "/skills/react.svg",
       },
     ],
   },
@@ -105,14 +96,34 @@ const skills: ISkillListItem[] = [
         icon: "/skills/mongodb.svg",
       },
       {
-        title: "PostgreSQL",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/postgresql.svg",
-      },
-      {
         title: "MySQL",
         level: SkillLevel.Begginer,
         icon: "/skills/mysql.svg",
+      },
+      {
+        title: "Firebase",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/firebase.svg",
+      },
+    ],
+  },
+  {
+    title: "Machine Learning",
+    items: [
+      {
+        title: "OpenCV",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/opencv2.svg",
+      },
+      {
+        title: "Numpy",
+        level: SkillLevel.Begginer,
+        icon: "/skills/numpy.svg",
+      },
+      {
+        title: "Scikit-Learn",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/scikitlearn.svg",
       },
     ],
   },
@@ -125,11 +136,6 @@ const skills: ISkillListItem[] = [
         icon: "/skills/docker.png",
       },
       {
-        title: "AWS",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/aws.svg",
-      },
-      {
         title: "Git",
         level: SkillLevel.Expert,
         icon: "/skills/git.svg",
@@ -138,21 +144,6 @@ const skills: ISkillListItem[] = [
         title: "GitHub",
         level: SkillLevel.Expert,
         icon: "/skills/github.svg",
-      },
-    ],
-  },
-  {
-    title: "Miscellaneous",
-    items: [
-      {
-        title: "Firebase",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/firebase.svg",
-      },
-      {
-        title: "Ubuntu",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/ubuntu.png",
       },
     ],
   },
