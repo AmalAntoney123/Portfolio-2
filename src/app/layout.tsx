@@ -26,9 +26,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Nikhil Rajput",
+  title: "Amal Antoney",
   description:
-    "Nikhil Rajput is a proficient Software Engineer and Full Stack Developer from India, skilled in front-end and back-end development using modern tech stacks.",
+    "Amal Antoney is a skilled Software Engineer and Full Stack Developer, proficient in front-end and back-end development using modern tech stacks.",
   robots: {
     index: true,
     follow: true,
@@ -49,16 +49,16 @@ export const metadata: Metadata = {
     },
   ],
   keywords: [
-    "nikhil rajput",
-    "nikhil",
-    "nixrajput",
-    "nikhil-rajput",
-    "rajput nikhil",
-    "founder of nixlab",
-    "nixlab founder",
+    "amal antoney",
+    "amal",
+    "amalantoney123",
+    "amal-antoney",
+    "antoney amal",
     "full stack developer",
-    "indian developer",
-    "nixrajput github",
+    "software engineer",
+    "react native developer",
+    "flutter developer",
+    "amalantoney123 github",
   ],
 };
 
