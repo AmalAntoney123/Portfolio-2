@@ -20,6 +20,7 @@ const projects: IProjectItem[] = [
     icon: "/skills/react.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
+    url: "https://emo.amalantoney.com/",
     githubUrl: "https://github.com/AmalAntoney123/ML_mental_health",
     tags: ["React Native", "AI", "Machine Learning", "Emotional Well-being", "Mobile App"],
   },
