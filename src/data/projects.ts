@@ -2,6 +2,17 @@ import { IProjectItem, ProjectType, RepoType } from "@/types";
 
 const projects: IProjectItem[] = [
   {
+    id: "geo-supply",
+    title: "GeoSupply",
+    description:
+      "Responsive web application for St. George Vegetables to manage finances, deliveries, and purchases. Features cross-platform compatibility for iPhone, iPad, and Mac.",
+    icon: "/skills/react.svg",
+    repoType: RepoType.Private,
+    projectType: ProjectType.Personal,
+    url: "https://geosupply.amalantoney.com",
+    tags: ["React", "Firebase", "Responsive Design", "Financial Management", "Inventory System"],
+  },
+  {
     id: "titan-quiz",
     title: "Titan Quiz",
     description:
