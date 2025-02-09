@@ -2,9 +2,22 @@ import { IExperienceItem } from "@/types";
 
 const experiences: IExperienceItem[] = [
   {
+    designation: "Software Engineer",
+    company: "Safran",
+    startDate: "Feb 2025",
+    endDate: "",
+    isCurrentJob: true,
+    location: "Hyderabad, Telangana",
+    shortDescription:
+      "Working on Java Teamcenter PLM development.",
+    description:
+
+      "Working as a Software Engineer at Safran, focusing on Teamcenter PLM (Product Lifecycle Management) development using Java. Contributing to the development and maintenance of PLM solutions to streamline product development processes and enhance collaboration across teams.",
+  },
+  {
     designation: "Freelance Full Stack Developer",
     company: "Self-employed",
-    startDate: "Present",
+    startDate: "2023",
     endDate: "",
     isCurrentJob: true,
     location: "Remote",
